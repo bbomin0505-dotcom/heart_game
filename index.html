@@ -59,8 +59,7 @@
             100% { background-position: 0% 50%; }
         }
     </style>
-</head>
-<body class="bg-gradient-to-br from-pink-200 via-purple-200 to-indigo-200 h-screen flex flex-col items-center justify-center relative bg-animate">
+</head>ㅇflex-col items-center justify-center relative bg-animate">
 
     <!-- 메인 컨텐츠 영역 -->
     <div class="text-center z-10 w-full max-w-md px-4">
@@ -70,7 +69,8 @@
             아래 '내 최애' 글자를 여러분이 좋아하는 아이돌이나 친구 이름으로 바꿔보세요! 
             예: 차은우, 뉴진스, 3학년 5반 이쁜이
         -->
-        <h1 id="targetName" class="text-4xl text-pink-600 drop-shadow-md mb-2">내 최애</h1>
+        <h1 id="targetName" class="text-4xl text-pink-600 drop-shadow-md mb-2">앵보>앵보>앵
+희>
         
         <p class="text-gray-600 text-lg mb-8">에게 하트를 보내주세요! 💖</p>
 
@@ -112,17 +112,113 @@
 
         // 칭찬 멘트 목록
         const messages = [
-            "사랑해! 😍",
-            "완전 멋져! ✨",
-            "심쿵했어 💘",
-            "너뿐이야! 🌏",
-            "오늘도 화이팅 💪",
-            "맛있는거 먹어 🍔",
-            "평생 응원할게 🎉"
+            "송충이 먹어           100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>ㅇflex-col items-center justify-center relative bg-animate">
+
+    <!-- 메인 컨텐츠 영역 -->
+    <div class="text-center z-10 w-full max-w-md px-4">
+        
+        <!-- 
+            ⭐⭐⭐ [수정 포인트 1] ⭐⭐⭐
+            아래 '내 최애' 글자를 여러분이 좋아하는 아이돌이나 친구 이름으로 바꿔보세요! 
+            예: 차은우, 뉴진스, 3학년 5반 이쁜이
+        -->
+        <h1 id="targetName" class="text-4xl text-pink-600 drop-shadow-md mb-2">앵보>앵보>앵
+희>
+        
+        <p class="text-gray-600 text-lg mb-8">에게 하트를 보내주세요! 💖</p>
+
+        <!-- 점수 표시판 -->
+        <div class="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-xl mb-10 border-4 border-white">
+            <p class="text-gray-500 text-sm mb-1">보낸 사랑</p>
+            <div id="score" class="text-6xl text-pink-500 font-bold transition-all duration-100">0</div>
+            <p id="message" class="text-pink-400 text-sm mt-2 h-6">터치해서 시작!</p>
+        </div>
+
+        <!-- 하트 발사 버튼 -->
+        <button id="heartBtn" class="btn-press group relative transition-all duration-200 hover:scale-105">
+            <!-- 버튼 배경 -->
+            <div class="absolute inset-0 bg-red-400 rounded-full blur opacity-40 group-hover:opacity-60 transition-opacity"></div>
+            <!-- 실제 버튼 -->
+            <div class="relative bg-gradient-to-tr from-pink-500 to-red-400 w-40 h-40 rounded-full flex items-center justify-center shadow-lg border-4 border-white/50">
+                <span class="text-6xl filter drop-shadow-lg">💖</span>
+            </div>
+        </button>
+
+    </div>
+
+    <!-- 하단 크레딧 -->
+    <!-- 
+        ⭐⭐⭐ [수정 포인트 2] ⭐⭐⭐
+        여러분의 이름이나 닉네임을 적어보세요.
+    -->
+    <div class="absolute bottom-4 text-gray-500 text-xs text-center w-full">
+        Made with Love by <span class="font-bold text-pink-500">익명의 팬</span>
+    </div>
+
+    <script>
+        // 변수 설정
+        let count = 0;
+        const heartBtn = document.getElementById('heartBtn');
+        const scoreDisplay = document.getElementById('score');
+        const messageDisplay = document.getElementById('message');
+        const targetName = document.getElementById('targetName').innerText;
+
+        // 칭찬 멘트 목록
+        const messages = [
+            "송충이 먹어 🐛   ""송충이 먹어    ""송충이 먹ㅇ   ",
+            "두바목보 🤦‍♀️",
+            "나가살아 🏠",
+            "잉기니밍기 🍒",
+            "송충이 줄겁니다 제가 줄겁니다 🐛      <div class="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-xl mb-10 border-4 border-white">
+            <p class="text-gray-500 text-sm mb-1">보낸 사랑</p>
+            <div id="score" class="text-6xl text-pink-500 font-bold transition-all duration-100">0</div>
+            <p id="message" class="text-pink-400 text-sm mt-2 h-6">터치해서 시작!</p>
+        </div>
+
+        <!-- 하트 발사 버튼 -->
+        <button id="heartBtn" class="btn-press group relative transition-all duration-200 hover:scale-105">
+            <!-- 버튼 배경 -->
+            <div class="absolute inset-0 bg-red-400 rounded-full blur opacity-40 group-hover:opacity-60 transition-opacity"></div>
+            <!-- 실제 버튼 -->
+            <div class="relative bg-gradient-to-tr from-pink-500 to-red-400 w-40 h-40 rounded-full flex items-center justify-center shadow-lg border-4 border-white/50">
+                <span class="text-6xl filter drop-shadow-lg">💖</span>
+            </div>
+        </button>
+
+    </div>
+
+    <!-- 하단 크레딧 -->
+    <!-- 
+        ⭐⭐⭐ [수정 포인트 2] ⭐⭐⭐
+        여러분의 이름이나 닉네임을 적어보세요.
+    -->
+    <div class="absolute bottom-4 text-gray-500 text-xs text-center w-full">
+        Made with Love by <span class="font-bold text-pink-500">앵두</span>
+    </div>
+
+    <script>
+        // 변수 설정
+        let count = 0;
+        const heartBtn = document.getElementById('heartBtn');
+        const scoreDisplay = document.getElementById('score');
+        const messageDisplay = document.getElementById('message');
+        const targetName = document.getElementById('targetName').innerText;
+
+        // 칭찬 멘트 목록
+        const messages = [
+            "송충이 먹어 🐛   ""송충이 먹어    ""송충이 먹ㅇ   ",
+            "바보 🤦‍♀️",
+            "나가살아 🏠",
+            "잉기니밍기 🍒",
+            "송충이 줄겁니다 제가 줄겁니다 🐛",
+            "ㅋㅋ꼬마돌 🪨"
         ];
 
         // 하트 이모지 목록
-        const hearts = ["💖", "💕", "💞", "💓", "💗", "💘", "💝"];
+        const hearts = ["🐛", "🤦‍♀️", "🏠", "🍒", "🪨", "😎", "🎶"];
 
         // 버튼 클릭 이벤트
         heartBtn.addEventListener('click', (e) => {
@@ -134,8 +230,7 @@
             scoreDisplay.style.transform = "scale(1.2)";
             setTimeout(() => scoreDisplay.style.transform = "scale(1)", 100);
 
-            // 3. 랜덤 메시지 출력 (10번 클릭할 때마다)
-            if (count % 10 === 0 || count === 1) {
+            // 3. 랜덤 메시지 출력 (10번 클릭할 때마            if (count % 10 === 0 || count === 1) {
                 const randomMsg = messages[Math.floor(Math.random() * messages.length)];
                 messageDisplay.innerText = randomMsg;
             }
